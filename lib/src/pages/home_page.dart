@@ -1,3 +1,4 @@
+import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/material.dart';
 import 'package:scannerapp/src/pages/directions_page.dart';
 import 'package:scannerapp/src/pages/maps_page.dart';
@@ -32,7 +33,6 @@ class _HomePageState extends State<HomePage> {
 
   void _scannQR() async{
     String codeResult = '';
-   /*
     try{
       codeResult = await BarcodeScanner.scan();
     }catch(e){
@@ -40,9 +40,6 @@ class _HomePageState extends State<HomePage> {
     }
 
     print('Resultado ${codeResult}');
-
-
-    */
 
   }
 
